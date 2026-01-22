@@ -7,7 +7,7 @@ header{
     align-items: center;
    position: sticky;
    top: 0;
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     overflow-x: hidden;
 }
 .nav1{
