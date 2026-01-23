@@ -1,11 +1,16 @@
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom-color: black;
+
 }
 .logo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width:50px;
+}
+header hr {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin-top: 10px;
 }
