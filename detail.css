@@ -42,7 +42,7 @@ nav{
     border-radius: 20px;
     padding-left: 20px;
     outline: none;
-    border: solid 3px rgb(4, 4, 169);
+    border: solid 3px rgba(5, 109, 68, 0.826);
 }
 ::placeholder{
     font-size: 20px;
@@ -108,7 +108,7 @@ nav{
 .sing_in{
  padding: 10px 30px;
  color: white;
- background-color: rgb(8, 8, 8);
+ background-color:  rgba(5, 109, 68, 0.826);
  border-radius: 20px;
 font-size: 18px;
 font-weight: 600;
@@ -119,8 +119,8 @@ font-weight: 600;
 }
 .sing_up{
 padding: 10px 30px;
-color: rgb(11, 11, 11);
-background-color: rgb(188, 179, 250);
+color: white;
+background-color: black;
 border-radius: 20px;
 font-size: 18px;
 font-weight: 600;
