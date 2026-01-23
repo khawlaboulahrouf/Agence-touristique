@@ -1,167 +1,81 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    .header{
+    margin: 0%;
     display: flex;
     justify-content: space-between;
 
-}
-.logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-header hr {
-    border: none;
-    height: 1px;
-    background-color: #000;
-    margin-top: 10px;
-}
-#touch-icon{
-    width:45px;
-    height:45px;
 }
 .hero{
     display: flex;
     justify-content: center;
 }
+#touch-icon{
+    width:45px;
+    height:45px;
+    
+}
 .icons{
     display: flex;
     justify-content: space-between;
-    
-}.hero {
-  width: 420px;
-  margin: 40px auto;
-  padding: 25px;
-  border-radius: 12px;
-  text-align: center;
-  font-family: Arial, sans-serif;
-}
-
-#touch-icon {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
-.descript p {
-  font-size: 14px;
-  color: #555;
-  margin: 10px 0 20px;
-}
-
-.email {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.email input {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-.email button {
-  padding: 12px;
-  background:rgba(38, 151, 113, 1);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.or {
-  margin: 15px 0;
-  font-size: 14px;
-  color: #777;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.icons {
-  width: 30%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-}
-
-.icons img {
-  width: 30px;
-}
-    
-}
-header hr {
-    border: none;
-    height: 1px;
-    background-color: #000;
-    margin-top: 10px;
 }
 .hero {
-  width: 420px;
-  margin: 40px auto;
-  padding: 25px;
-  border-radius: 12px;
-  text-align: center;
-  font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    text-align: center;
 }
-
 #touch-icon {
-  width: 50px;
-  margin-bottom: 10px;
+    width: 50px auto;
+    margin-bottom: 10px;
 }
-
 .descript p {
-  font-size: 14px;
-  color: #555;
-  margin: 10px 0 20px;
+    margin: 20px auto;
+    font-size: 15px;
+    color: #878787;
 }
-
 .email {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
-
 .email input {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+    border-color: #1c1c1c;
+    padding: 12px;
+    border-radius: 8px;
 }
-
 .email button {
-  padding: 12px;
-  background:rgba(38, 151, 113, 1);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
+    background:rgba(38, 151, 113, 1);
+    padding: 12px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
-
 .or {
-  margin: 15px 0;
-  font-size: 14px;
-  color: #777;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #777;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.icons {
-  width: 30%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
 }
 
 .icons img {
-  width: 30px;
+    width: 30px;
+
 }
+.icons {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+}
+
