@@ -4,6 +4,10 @@
     justify-content: space-between;
 
 }
+.logo{
+    display: flex;
+    width: 10px auto;
+}
 .hero{
     display: flex;
     justify-content: center;
@@ -83,29 +87,29 @@ footer{
     height: 650px;
     background-color: black;
     margin-top: 100px;
-}
-footer .foter1 a i{
+  }
+  footer .foter1 a i{
     text-decoration: none;
     color: rgb(250, 249, 249);
     font-size: 40px;
-}
-.foter1{
+  }
+  .foter1{
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
   
-}
-.foter1 a i{
+  }
+  .foter1 a i{
     margin: 20px;
-}
-.star1{
+  }
+  .star1{
     color: yellow;
     background-color: green;
     
-}
-.display{
+  }
+  .display{
     
     margin-top: 30px;
     width: 100%;
@@ -113,9 +117,9 @@ footer .foter1 a i{
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.elem4{
+  
+  }
+  .elem4{
     width: 350px;
     height: 30px;
     text-align: center;
@@ -125,29 +129,29 @@ footer .foter1 a i{
     justify-content: center;
     gap: 9px;
     margin-left: 10px;
-}
-.elem4 p{
+  }
+  .elem4 p{
     margin-top: -4px;
   
-}
-.elem4 a{
+  }
+  .elem4 a{
     text-decoration: none;
     color: white;
-
-}
-.elem4 a:hover{
+  
+  }
+  .elem4 a:hover{
     text-decoration: underline;
     cursor: pointer;
-}
-.elem4 i{
+  }
+  .elem4 i{
     color: yellow;
     background-color: green;
-}
-.elem4 span{
+  }
+  .elem4 span{
     font-weight: 600;
     font-size: 14px;
-}
-.foter3{
+  }
+  .foter3{
     width: 100%;
     height: 300px;
     margin-top: 50px;
@@ -155,66 +159,66 @@ footer .foter1 a i{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-.foter3 div a{
+  }
+  .foter3 div a{
     text-decoration: none;
     color: white;
     
-}
-ul li{
+  }
+  ul li{
     line-height: 70px;
-}
-.foter3 div a:hover{
-text-decoration: underline;
-}
-
-.foter4{
+  }
+  .foter3 div a:hover{
+  text-decoration: underline;
+  }
+  
+  .foter4{
     width: 100%;
     display: flex;
     justify-content:center;
     gap: 20px;
-}
-.foter4 div i{
+  }
+  .foter4 div i{
     color: white;
     font-size: 40px;
-}
-.foter4 div p{
+  }
+  .foter4 div p{
     color: white;
     font-size: 14px;
-}
-.foter4 div span{
+  }
+  .foter4 div span{
     color: white;
     font-size: 10px;
-}
-.foter4 div{
+  }
+  .foter4 div{
     margin-top: 5px;
     display: flex;
     gap: 20px;
-}
-.span_A{
+  }
+  .span_A{
     display: flex;
     flex-direction: column;
      width: 110px;
-}
-.span_B{
+  }
+  .span_B{
     display: flex;
     flex-direction: column;
     justify-content: center;
    
     
-}
-.brend{
+  }
+  .brend{
     height:80px;
     padding: 5px;
     border: solid white 1px;
     border-radius: 20px;
     display: flex;align-items: center;
     line-height: 1px;
-}
-.brend i{
+  }
+  .brend i{
     
-}
-.foter5{
+  }
+  .foter5{
     width: 100%;
     justify-content: center;
     color: white;
@@ -224,13 +228,23 @@ text-decoration: underline;
     gap: 40px;
     font-size: 15px;
     margin-left: 10px;
-}
-.foter5 a{
+  }
+  .foter5 a{
     color: white;
     text-decoration: none;
     
-}
-.foter5 a:hover{
-text-decoration: underline;
-}
-
+  }
+  .foter5 a:hover{
+  text-decoration: underline;
+  }
+  @media (max-width: 768px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+  }
