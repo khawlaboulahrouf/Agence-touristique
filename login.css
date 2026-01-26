@@ -84,7 +84,7 @@
 }
 footer{
     width: 100%;
-    height: 650px;
+    min-height: 650px;
     background-color: black;
     margin-top: 100px;
   }
@@ -128,11 +128,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 9px;
-    margin-left: 10px;
-  }
-  .elem4 p{
-    margin-top: -4px;
-  
+    margin-left: 10px;  
   }
   .elem4 a{
     text-decoration: none;
@@ -203,9 +199,7 @@ footer{
   .span_B{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
-    
+    justify-content: center;    
   }
   .brend{
     height:80px;
@@ -214,9 +208,6 @@ footer{
     border-radius: 20px;
     display: flex;align-items: center;
     line-height: 1px;
-  }
-  .brend i{
-    
   }
   .foter5{
     width: 100%;
@@ -232,7 +223,7 @@ footer{
   .foter5 a{
     color: white;
     text-decoration: none;
-    
+
   }
   .foter5 a:hover{
   text-decoration: underline;
@@ -246,5 +237,29 @@ footer{
         display: flex;
         justify-content: center;
         padding: 10px;
+    }
+    .logo{
+      display: flex;
+      justify-content:center;
+    }
+    .elem4{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .foter1 {
+        font-size: 20px;
+    }
+    .foter3 {
+        flex-direction: column;
+    }
+    .foter4 {
+        flex-direction: column;
+    }
+    .brend {
+        width: 100%;
+        justify-content: center;
+    }
+    .foter5 span {
+        display: block;
     }
   }
